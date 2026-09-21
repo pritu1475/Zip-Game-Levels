@@ -1,25 +1,21 @@
 {
-  "version": 1,
-  "levels": [
-    {
-      "id": 31,
-      "title": "Chamber of Glass",
-      "rows": 6,
-      "cols": 6,
-      "difficulty": "Hard",
-      "checkpoints": [
-        {"row": 0, "col": 0, "value": 1},
-        {"row": 0, "col": 5, "value": 2},
-        {"row": 2, "col": 3, "value": 3},
-        {"row": 3, "col": 2, "value": 4},
-        {"row": 5, "col": 0, "value": 5},
-        {"row": 5, "col": 5, "value": 6}
-      ],
-      "walls": [
-        {"r1": 1, "c1": 1, "r2": 1, "c2": 2},
-        {"r1": 2, "c1": 1, "r2": 2, "c2": 2}
-      ]
-    },
+  "id": 31,
+  "title": "Chamber of Glass",
+  "rows": 6,
+  "cols": 6,
+  "difficulty": "Hard",
+  "checkpoints": [
+    {"row": 0, "col": 0, "value": 1},
+    {"row": 0, "col": 5, "value": 2},
+    {"row": 2, "col": 3, "value": 3},
+    {"row": 3, "col": 2, "value": 4},
+    {"row": 5, "col": 0, "value": 5},
+    {"row": 5, "col": 4, "value": 6}
+  ],
+  "walls": [
+    {"r1": 1, "c1": 1, "r2": 1, "c2": 2}
+  ]
+},
     {
       "id": 32,
       "title": "Prism Divide",
