@@ -1,7 +1,7 @@
 {
   "version": 1,
   "levels": [
-    {
+{
       "id": 31,
       "title": "Chamber of Glass",
       "rows": 6,
@@ -35,6 +35,992 @@
       "walls": [
         {"r1": 0, "c1": 2, "r2": 0, "c2": 3},
         {"r1": 1, "c1": 2, "r2": 1, "c2": 3}
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Glass Labyrinth",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "value": 2
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "value": 3
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": 4
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": 5
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "value": 6
+        }
+      ],
+      "walls": [
+        {
+          "r1": 5,
+          "c1": 3,
+          "r2": 5,
+          "c2": 4
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "Neon Switchback",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "value": 2
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "value": 3
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "value": 4
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "value": 5
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "value": 6
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "value": 7
+        }
+      ],
+      "walls": [
+        {
+          "r1": 0,
+          "c1": 1,
+          "r2": 1,
+          "c2": 1
+        },
+        {
+          "r1": 3,
+          "c1": 1,
+          "r2": 3,
+          "c2": 2
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Hidden Corridor",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "value": 2
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": 3
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "value": 4
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "value": 5
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": 6
+        }
+      ],
+      "walls": [
+        {
+          "r1": 5,
+          "c1": 1,
+          "r2": 5,
+          "c2": 2
+        },
+        {
+          "r1": 2,
+          "c1": 1,
+          "r2": 3,
+          "c2": 1
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "title": "Crystal Route",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "value": 2
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "value": 3
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "value": 4
+        },
+        {
+          "row": 2,
+          "col": 3,
+          "value": 5
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": 6
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": 7
+        }
+      ],
+      "walls": [
+        {
+          "r1": 4,
+          "c1": 3,
+          "r2": 5,
+          "c2": 3
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Mirror Maze",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "value": 2
+        },
+        {
+          "row": 4,
+          "col": 2,
+          "value": 3
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "value": 4
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "value": 5
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "value": 6
+        }
+      ],
+      "walls": [
+        {
+          "r1": 0,
+          "c1": 4,
+          "r2": 1,
+          "c2": 4
+        },
+        {
+          "r1": 4,
+          "c1": 2,
+          "r2": 5,
+          "c2": 2
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Silent Crossing",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "value": 2
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "value": 3
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "value": 4
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "value": 5
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "value": 6
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "value": 7
+        }
+      ],
+      "walls": [
+        {
+          "r1": 1,
+          "c1": 3,
+          "r2": 2,
+          "c2": 3
+        },
+        {
+          "r1": 1,
+          "c1": 5,
+          "r2": 2,
+          "c2": 5
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Prism Circuit",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "value": 2
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "value": 3
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "value": 4
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "value": 5
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "value": 6
+        }
+      ],
+      "walls": [
+        {
+          "r1": 2,
+          "c1": 4,
+          "r2": 2,
+          "c2": 5
+        },
+        {
+          "r1": 0,
+          "c1": 2,
+          "r2": 1,
+          "c2": 2
+        },
+        {
+          "r1": 3,
+          "c1": 1,
+          "r2": 4,
+          "c2": 1
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Shadow Spiral",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "value": 2
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "value": 3
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "value": 4
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "value": 5
+        },
+        {
+          "row": 1,
+          "col": 2,
+          "value": 6
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": 7
+        }
+      ],
+      "walls": [
+        {
+          "r1": 2,
+          "c1": 2,
+          "r2": 2,
+          "c2": 3
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "title": "Obsidian Grid",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "value": 2
+        },
+        {
+          "row": 4,
+          "col": 4,
+          "value": 3
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": 4
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": 5
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": 6
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "value": 7
+        }
+      ],
+      "walls": [
+        {
+          "r1": 4,
+          "c1": 2,
+          "r2": 5,
+          "c2": 2
+        },
+        {
+          "r1": 1,
+          "c1": 3,
+          "r2": 1,
+          "c2": 4
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "title": "Twisted Gallery",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 0,
+          "col": 5,
+          "value": 2
+        },
+        {
+          "row": 3,
+          "col": 0,
+          "value": 3
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "value": 4
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": 5
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": 6
+        }
+      ],
+      "walls": [
+        {
+          "r1": 0,
+          "c1": 3,
+          "r2": 1,
+          "c2": 3
+        },
+        {
+          "r1": 1,
+          "c1": 4,
+          "r2": 2,
+          "c2": 4
+        },
+        {
+          "r1": 2,
+          "c1": 2,
+          "r2": 3,
+          "c2": 2
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "title": "Vault of Paths",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "value": 2
+        },
+        {
+          "row": 1,
+          "col": 0,
+          "value": 3
+        },
+        {
+          "row": 2,
+          "col": 5,
+          "value": 4
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "value": 5
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": 6
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": 7
+        }
+      ],
+      "walls": [
+        {
+          "r1": 4,
+          "c1": 2,
+          "r2": 5,
+          "c2": 2
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "title": "Frozen Junction",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "value": 2
+        },
+        {
+          "row": 2,
+          "col": 0,
+          "value": 3
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "value": 4
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "value": 5
+        },
+        {
+          "row": 3,
+          "col": 1,
+          "value": 6
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": 7
+        }
+      ],
+      "walls": [
+        {
+          "r1": 0,
+          "c1": 4,
+          "r2": 1,
+          "c2": 4
+        },
+        {
+          "r1": 1,
+          "c1": 5,
+          "r2": 2,
+          "c2": 5
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "title": "Quantum Weave",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 1,
+          "col": 3,
+          "value": 2
+        },
+        {
+          "row": 2,
+          "col": 2,
+          "value": 3
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": 4
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": 5
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "value": 6
+        }
+      ],
+      "walls": [
+        {
+          "r1": 4,
+          "c1": 2,
+          "r2": 4,
+          "c2": 3
+        },
+        {
+          "r1": 2,
+          "c1": 1,
+          "r2": 3,
+          "c2": 1
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "title": "Copper Maze",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "value": 2
+        },
+        {
+          "row": 1,
+          "col": 1,
+          "value": 3
+        },
+        {
+          "row": 1,
+          "col": 5,
+          "value": 4
+        },
+        {
+          "row": 5,
+          "col": 3,
+          "value": 5
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "value": 6
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "value": 7
+        }
+      ],
+      "walls": [
+        {
+          "r1": 1,
+          "c1": 5,
+          "r2": 2,
+          "c2": 5
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "title": "Midnight Circuit",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 4,
+          "col": 1,
+          "value": 2
+        },
+        {
+          "row": 0,
+          "col": 3,
+          "value": 3
+        },
+        {
+          "row": 5,
+          "col": 4,
+          "value": 4
+        },
+        {
+          "row": 3,
+          "col": 3,
+          "value": 5
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "value": 6
+        }
+      ],
+      "walls": [
+        {
+          "r1": 1,
+          "c1": 4,
+          "r2": 1,
+          "c2": 5
+        },
+        {
+          "r1": 3,
+          "c1": 4,
+          "r2": 3,
+          "c2": 5
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "title": "Emerald Passage",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 4,
+          "col": 0,
+          "value": 2
+        },
+        {
+          "row": 4,
+          "col": 5,
+          "value": 3
+        },
+        {
+          "row": 2,
+          "col": 4,
+          "value": 4
+        },
+        {
+          "row": 0,
+          "col": 2,
+          "value": 5
+        },
+        {
+          "row": 2,
+          "col": 1,
+          "value": 6
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": 7
+        }
+      ],
+      "walls": [
+        {
+          "r1": 4,
+          "c1": 0,
+          "r2": 4,
+          "c2": 1
+        },
+        {
+          "r1": 3,
+          "c1": 0,
+          "r2": 3,
+          "c2": 1
+        },
+        {
+          "r1": 3,
+          "c1": 4,
+          "r2": 3,
+          "c2": 5
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "title": "Clockwork Grid",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 5,
+          "col": 1,
+          "value": 2
+        },
+        {
+          "row": 0,
+          "col": 4,
+          "value": 3
+        },
+        {
+          "row": 5,
+          "col": 5,
+          "value": 4
+        },
+        {
+          "row": 1,
+          "col": 4,
+          "value": 5
+        },
+        {
+          "row": 4,
+          "col": 3,
+          "value": 6
+        },
+        {
+          "row": 5,
+          "col": 2,
+          "value": 7
+        }
+      ],
+      "walls": [
+        {
+          "r1": 4,
+          "c1": 2,
+          "r2": 5,
+          "c2": 2
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "title": "Final Gauntlet",
+      "rows": 6,
+      "cols": 6,
+      "difficulty": "Hard",
+      "checkpoints": [
+        {
+          "row": 0,
+          "col": 0,
+          "value": 1
+        },
+        {
+          "row": 5,
+          "col": 0,
+          "value": 2
+        },
+        {
+          "row": 3,
+          "col": 5,
+          "value": 3
+        },
+        {
+          "row": 3,
+          "col": 4,
+          "value": 4
+        },
+        {
+          "row": 0,
+          "col": 1,
+          "value": 5
+        },
+        {
+          "row": 3,
+          "col": 2,
+          "value": 6
+        }
+      ],
+      "walls": [
+        {
+          "r1": 4,
+          "c1": 4,
+          "r2": 4,
+          "c2": 5
+        },
+        {
+          "r1": 2,
+          "c1": 4,
+          "r2": 2,
+          "c2": 5
+        }
       ]
     }
   ]
